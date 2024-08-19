@@ -38,5 +38,3 @@ jobs:
         uses: classroom-resources/autograding-grading-reporter@v1
         env:
           QUIZ_1_RESULTS: "${{ steps.quiz-1.outputs.result }}"
-        with:
-          runners: "quiz-1, quiz-2"
