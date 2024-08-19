@@ -2,8 +2,6 @@ name: Autograding Tests
 
 on:
   push:
-    branches:
-      - main
   repository_dispatch:
 
 permissions:
