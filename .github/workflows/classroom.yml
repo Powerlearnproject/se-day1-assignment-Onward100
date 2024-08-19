@@ -39,4 +39,4 @@ jobs:
         env:
           QUIZ_1_RESULTS: "${{ steps.quiz-1.outputs.result }}"
         with:
-          runners: "quiz-1, quiz-2, quiz-3, quiz-4, quiz-5, quiz-6, quiz-7, quiz-8, quiz-9, quiz-10"
+          runners: "quiz-1"
